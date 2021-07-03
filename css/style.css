@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body{
+    background-color:#f7f5f5;
+}
+
+.center{
+    max-width:1100px;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+header{
+    padding: 30px 0;
+}
+
+.clear{clear: both;}
+
+
+/*LOGO*/
+.logo h2{
+    color: #353b6c;
+    font-size: 23px;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+}
+
+/*MENU*/
+.menu{
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+
+.menu a{
+    margin: 0 30px;
+    text-decoration: none;
+    color:#aab3c2;
+}
+
+.menu a:hover{
+    color:#535b6c;
+
+}
+
+/*Icons - menu*/
+.icons-menu{
+    float: left;
+    width: 10%;
+}
+
+.icons-menu a{
+    margin: 0 10px;
+}
+
+/*TOPO-1*/
+.topo-1{
+    float: left;
+    width: 60%;   
+}
+
+.topo-2{
+   float: left; 
+   width: 40%;
+}
+
+.topo-2 img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.topo-1 h3{
+    color: #535b6c;
+}
+
+.topo-1 h1{
+    margin: 20px 0;
+    color:#525dad;
+    font-size: 56px;
+}
+
+.topo-1 p{
+    color:#aab3c2;
+}
+
+.topo-1 h1 > span{
+    color: #f75915;
+}
+
+.topo-1 a{
+    border-radius: 4px;
+    background-color: #f75915;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 15px;
+    color: white;
+}
+
+/*CHAMADOS SERVIÇOS*/
+.chamada-servicos h4{
+    font-size: 16px;
+    color:#535b6c;
+}
+
+.chamada-servicos h1{
+    font-size: 40px;
+    color: #525dad;
+}
+
+.chamada-servicos{
+    text-align: center;
+}
+
+section.servicos{
+    padding:40px 0;
+}
+
+
+.descricao-servicos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-servicos img{
+    max-width: 100%;
+ 
+}
+
+.img-servicos{
+    width: 60%;;
+}
+
+.detalhes-servicos{
+    padding:30px 30px;
+    width: 40%;;
+}
+
+.detalhes-servicos h3{
+    color: #535b6c;
+    font-size:26px ;
+    font-weight: normal;
+    margin:10px 0;
+}
+
+.detalhes-servicos p{
+    color: #535b6c;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.texto-depoimento{
+	float: left;
+	width: 50%;
+}
+
+.texto-depoimento h3{
+	color: #535b6c;
+	font-size: 33px;
+	font-weight: normal;
+}
+
+.texto-depoimento h4{
+	font-size: 22px;
+	color: #9299a5;
+}
+
+.img-depoimento{
+	float: left;
+	width: 50%;
+}
+
+.img-depoimento img{max-width: 100%;}
+
+.img-showcase{
+    width: 100%;
+    text-align: center;
+}
+
+.img-showcase img{
+    max-width: 100%;
+}
+
+
+/*FORMULÁRIO*/
+.formulario{
+    max-width:700px;
+    margin: 30px auto;
+   
+}
+
+.formulario input[type=text]{
+    width: 100%;
+    height: 40px;
+    border: 1px #ccc;
+    margin:10px 0;
+    padding-left: 10px;
+
+}
+
+.formulario input[type=submit]{
+    background-color: #f75915;
+    cursor: pointer;
+    color: white;
+    padding:10px 15px;
+    border:0 ;
+    width: 100%;
+
+}
+
+
+.formulario textarea{
+    width: 100%;
+    height: 120px;
+    border:1px solid #ccc;
+    pad: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 30px 0;
+    color: #353b6c;
+}
+
+/*CÓDIGO RESPONSÍVO*/
+@media screen and (max-width: 768px){
+
+    .menu{
+        float: right;
+    }
+
+    .menu a{
+        display: block;
+        text-align: right;
+        margin: 8px 10px;
+    }
+
+    .icons-menu{
+        display: none;
+    }
+
+    .topo-1,
+    .topo-2{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .img-servicos,
+    .detalhes-servicos{
+        width:100%;
+    }
+
+    .img-depoimento,
+	.texto-depoimento{
+		width: 100%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+}
+
